@@ -5,6 +5,10 @@ position: 1
 category: Introduction
 ---
 
+<alert>
+    tkt les vraies vidéos arrivent soon™
+</alert>
+
 <tuto-video :link="'https://www.youtube-nocookie.com/embed/dQw4w9WgXcQ'" :title="'Rick Astley - Never Gonna Give You Up'"></tuto-video>
 
 ## Quand est-ce qu’une Action se déclenche ?
