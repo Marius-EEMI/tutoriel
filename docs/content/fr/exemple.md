@@ -1,22 +1,35 @@
 ---
-title: Déroulement d’une Action
-description: Tuto GitHub Actions - une Action, comment ça marche ?
-position: 1
+title: Exemple d’Action
+description: Tuto GitHub Actions - un petit exemple d'Action
+position: 2
 category: Introduction
 ---
 
 <tuto-video :link="'https://www.youtube-nocookie.com/embed/dQw4w9WgXcQ'" :title="'Rick Astley - Never Gonna Give You Up'"></tuto-video>
 
-## Quand est-ce qu’une Action se déclenche ?
+## Déclaration
 
-Comme indiqué précédemment, les Actions sont parfaitement intégrées à GitHub, une Action peut donc être déclenchée en même temps que n’importe quel autre événement.
+Chaque GitHub Action doit être composée au minimum d’un nom, d’une liste d'événement(s) et d’une liste d’action(s), déclarés dans leur balise réspective : `name`, `on` et `jobs`.
 
-Cela inclut les événements classiques de Git (`push`, `merge`, …) mais aussi les événements propres à GitHub, comme lors de `pull request`, `release` et bien d’autres…
+```yaml
+# file: linting.py.yml
+name: Linting
+on: [push]
+jobs:
+  styles: # job key
+    runs-on: ubuntu-18.04
+    steps:
+      - uses: actions/checkout@master
+      - uses: actions/setup-python@v1
+      - uses: whynothugo/python-linting@master
+```
 
-Il est même possible de déclencher des Actions lors de sous-événements, par exemple quand un⋅e contributeur⋅rice poste un commentaire dans une `pull request`, ou quand une `issue` est taguée comme étant résolue.
+## Les jobs
 
-## Comment déclare t-on une Action ?
+Les jobs sont composés d’une clé (nom unique), d’un environnement (balise `runs-on`) et d’une liste d’étapes à réaliser (balise `steps`).
 
-Les Actions sont déclarées dans un fichier `yaml` (un par Action). Ces fichiers doivent être placés dans un dossier `.github/workflows` (lui-même placé a la racine du répo).
+Dans cet exemple, le job `styles` utilise un environnement linux (`ubuntu`) et est composé de 3 étapes.
 
-Les noms des fichiers sont au choix du développeur⋅se, il n’y a pas de convention fixe, du moment qu’ils sont bien finis par l'extension `.yaml` ou `.yml`.
+Chaque étape n’est en réalité qu’un appel à une autre GitHub Actions, identifiable sous cette forme : `<nom du créateur⋅rice>`/`<répo d’origine>`@`<version ou branche>` . Les Actions avec comme créateur `actions` sont mis à disposition directement par GitHub et sont en général un bon terrain de départ pour composer vos propres Actions. Il existe aussi des Actions faites par des tiers et certifiées par GitHub.
+
+Ici, nous pouvons voir que la troisième étape est une Action composée par WhyNotHugo, disponible dans son répo python-linting.
