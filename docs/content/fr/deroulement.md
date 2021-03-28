@@ -1,6 +1,6 @@
 ---
 title: Déroulement d’une Action
-description: Tuto GitHub Actions - une Action, comment ça marche ?
+description: Une Action, comment ça marche ?
 position: 1
 category: Introduction
 ---
@@ -23,4 +23,4 @@ Il est même possible de déclencher des Actions lors de sous-événements, par 
 
 Les Actions sont déclarées dans un fichier `yaml` (un par Action). Ces fichiers doivent être placés dans un dossier `.github/workflows` (lui-même placé a la racine du répo).
 
-Les noms des fichiers sont au choix du développeur⋅se, il n’y a pas de convention fixe, du moment qu’ils sont bien finis par l'extension `.yaml` ou `.yml`.
+Les noms des fichiers sont au choix du développeur⋅se, il n’y a pas de convention fixe, du moment qu’ils finissent bien par l'extension `.yaml` ou `.yml`.

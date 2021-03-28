@@ -1,6 +1,6 @@
 ---
 title: Exemple d’Action
-description: Tuto GitHub Actions - un petit exemple d'Action
+description: Un petit exemple d'Action
 position: 2
 category: Introduction
 ---
@@ -34,6 +34,6 @@ Les jobs sont composés d’une clé (nom unique), d’un environnement (balise 
 
 Dans cet exemple, le job `styles` utilise un environnement linux (`ubuntu`) et est composé de 3 étapes.
 
-Chaque étape n’est en réalité qu’un appel à une autre GitHub Actions, identifiable sous cette forme : `<nom du créateur⋅rice>`/`<répo d’origine>`@`<version ou branche>` . Les Actions avec comme créateur `actions` sont mis à disposition directement par GitHub et sont en général un bon terrain de départ pour composer vos propres Actions. Il existe aussi des Actions faites par des tiers et certifiées par GitHub.
+Chaque étape n’est en réalité qu’un appel à une autre GitHub Actions, identifiable sous cette forme : `<nom du créateur⋅rice>`/`<répo d’origine>`@`<version ou branche>`. Les Actions avec comme créateur `actions` sont mis à disposition directement par GitHub et sont en général un bon terrain de départ pour composer vos propres Actions. Il existe aussi des Actions faites par des tiers certifiés par GitHub <IconBadgeCheck class="list-success h-4 w-4 inline-flex"></IconBadgeCheck>
 
 Ici, nous pouvons voir que la troisième étape est une Action composée par WhyNotHugo, disponible dans son répo python-linting.
