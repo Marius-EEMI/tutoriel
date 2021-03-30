@@ -1,7 +1,7 @@
 ---
 title: From scratch
 description: Création d'une Action à la main
-position: 0
+position: 3
 category: Création
 requirements:
 - faire tourner notre code sur Linux
@@ -9,7 +9,7 @@ requirements:
 ---
 
 <alert type="info">
-    Si vous ne voulez pas faire vos propres Actions et souhaitez seulement utiliser des Actions pré-faites, je vous invite a passer directement à la <a href="marketplace">section suivante</a>.
+    Si vous ne voulez pas faire vos propres Actions et souhaitez seulement utiliser des Actions pré-faites, je vous invite a passer directement à la <a href="marketplace">section suivante</a>
 </alert>
 
 <alert>
@@ -36,7 +36,7 @@ Avant de commencer à écrire dans ce fichier, nous devons établir de quoi nous
 
 Comme il s'agit de tester un API, notre Action doit donc :
 
-<list :items="requirements" type="warning" icon="IconArrowRight"></list>
+<list :items="requirements" type="primary" icon="IconArrowRight"></list>
 
 Nous allons donc nous retrouver avec une Action plutôt similaire à celle vue dans l'<a href="../exemple#déclaration">exemple</a> de la partie précédente :
 

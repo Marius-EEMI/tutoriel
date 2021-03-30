@@ -15,9 +15,9 @@ category: Introduction
 
 L’automatisation est la clé pour simplifier et accélérer votre routine de développement, et les GitHub Actions sont précisément faites pour.
 
-Les GitHub Actions vous permettent de créer des cycles de développement sur mesure directement dans votre répo GitHub. Ces Actions sont entièrement intégrées dans GitHub, elles sont une partie inhérente de l'écosystème de GitHub.
+Les GitHub Actions vous permettent de créer des cycles de développement sur mesure directement dans votre répo GitHub. Ces Actions sont entièrement intégrées, elles sont une partie inhérente de l'écosystème de GitHub.
 
-## A quoi servent-elles ?
+## À quoi servent-elles ?
 
 Vous pouvez par exemple automatiser vos cycles de développement et de tests (CI) et ensuite combiner vos Actions avec celles déjà existantes pour obtenir une Action sur mesure et ensuite déployer votre code (CD).
 
