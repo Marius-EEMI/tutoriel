@@ -9,7 +9,7 @@ raisons:
 ---
 
 <alert>
-    tkt les vraies vidéos arrivent soon™
+    tkt la vraie vidéos arrive soon™
 </alert>
 
 <tuto-video :link="'https://www.youtube-nocookie.com/embed/dQw4w9WgXcQ'" :title="'Rick Astley - Never Gonna Give You Up'"></tuto-video>

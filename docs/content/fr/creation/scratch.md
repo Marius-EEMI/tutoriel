@@ -8,11 +8,11 @@ requirements:
 - tester le code apres chaque modification
 ---
 
+<tuto-video :link="'https://www.youtube-nocookie.com/embed/2Ub-U1aCWOY'" :title="'From scratch - Tuto GitHub Actions'"></tuto-video>
+
 <alert type="info">
     Si vous ne voulez pas faire vos propres Actions et souhaitez seulement utiliser des Actions pré-faites, je vous invite a passer directement à la <a href="marketplace">section suivante</a>
 </alert>
-
-<tuto-video :link="'https://www.youtube-nocookie.com/embed/dQw4w9WgXcQ'" :title="'Rick Astley - Never Gonna Give You Up'"></tuto-video>
 
 ## Avant de commencer
 
