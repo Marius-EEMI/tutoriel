@@ -14,7 +14,7 @@ category: Introduction
 
 ## Que sont les GitHub Actions ?
 
-L’automatisation est la clé pour simplifier et accélérer votre routine de développement, et les GitHub Actions sont précisément faites pour.
+Dans tout projet informatique, l’automatisation est la clé pour simplifier et accélérer votre routine de développement, et les GitHub Actions sont précisément faites pour.
 
 Les GitHub Actions vous permettent de créer des cycles de développement sur mesure directement dans votre répo GitHub. Ces Actions sont entièrement intégrées, elles sont une partie inhérente de l'écosystème de GitHub.
 

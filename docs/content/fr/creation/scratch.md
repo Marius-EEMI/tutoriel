@@ -12,15 +12,11 @@ requirements:
     Si vous ne voulez pas faire vos propres Actions et souhaitez seulement utiliser des Actions pré-faites, je vous invite a passer directement à la <a href="marketplace">section suivante</a>
 </alert>
 
-<alert>
-    tkt les vraies vidéos arrivent soon™
-</alert>
-
 <tuto-video :link="'https://www.youtube-nocookie.com/embed/dQw4w9WgXcQ'" :title="'Rick Astley - Never Gonna Give You Up'"></tuto-video>
 
 ## Avant de commencer
 
-Vous avez peut-être déjà remarqué le bouton <IconGithub class="h-4 w-4 inline-flex"></IconGithub> en haut a droite du site, il mène au répo du projet que nous allons utilisez dans cet exemple. N'hésitez pas à y jeter un œil pour voir le fruit de nos dures labeurs 😉
+Vous avez peut-être déjà remarqué le bouton <IconGithub class="h-4 w-4 inline-flex"></IconGithub> en haut a droite du site (sur mobile : en bas à gauche une fois le menu ouvert), il mène au répo du projet que nous allons utilisez dans cet exemple. N'hésitez pas à y jeter un œil pour voir le fruit de nos dures labeurs 😉
 
 Le project que nous allons utiliser dans la suite de ce tutoriel est une simple API réalisée avec `NodeJs/Express`.
 
@@ -47,7 +43,7 @@ on: [push, pull_request]
 jobs:
   test_requests:
     runs-on: ubuntu-latest
-    steps:steps:
+    steps:
       - uses: actions/checkout@v2
       - uses: actions/setup-node@v2
         with:

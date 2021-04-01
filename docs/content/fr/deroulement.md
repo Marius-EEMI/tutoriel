@@ -5,11 +5,7 @@ position: 1
 category: Introduction
 ---
 
-<alert>
-    tkt les vraies vidéos arrivent soon™
-</alert>
-
-<tuto-video :link="'https://www.youtube-nocookie.com/embed/dQw4w9WgXcQ'" :title="'Rick Astley - Never Gonna Give You Up'"></tuto-video>
+<tuto-video :link="'https://www.youtube-nocookie.com/embed/vwsmzyWzQDs'" :title="'Déroulement d’une Action - Tuto GitHub Actions'"></tuto-video>
 
 ## Quand est-ce qu’une Action se déclenche ?
 
@@ -21,6 +17,6 @@ Il est même possible de déclencher des Actions lors de sous-événements, par 
 
 ## Comment déclare t-on une Action ?
 
-Les Actions sont déclarées dans un fichier `yaml` (un par Action). Ces fichiers doivent être placés dans un dossier `.github/workflows` (lui-même placé a la racine du répo).
+Les Actions sont déclarées dans un fichier `yaml` (un par Action). Ces fichiers doivent être placés dans un dossier `.github/workflows`, lui-même placé a la racine du répo.
 
 Les noms des fichiers sont au choix du développeur⋅se, il n’y a pas de convention fixe, du moment qu’ils finissent bien par l'extension `.yaml` ou `.yml`.
