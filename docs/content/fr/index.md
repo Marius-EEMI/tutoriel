@@ -5,11 +5,12 @@ position: 0
 category: Introduction
 ---
 
-<alert>
-    tkt les vraies vidéos arrivent soon™
+<alert type="danger">
+    Ce site fait partie d'un projet pour l'école d'informatique EEMI.
+    Une fois que Zino aura attribué la note largement méritée de 20/20, ce site s'autodétruira.
 </alert>
 
-<tuto-video :link="'https://www.youtube-nocookie.com/embed/dQw4w9WgXcQ'" :title="'Rick Astley - Never Gonna Give You Up'"></tuto-video>
+<tuto-video :link="'https://www.youtube-nocookie.com/embed/MSJ_Fb5DrC4'" :title="'Présentation des GitHub Actions - Tuto GitHub Actions'"></tuto-video>
 
 ## Que sont les GitHub Actions ?
 

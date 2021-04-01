@@ -28,7 +28,7 @@ export default {
 <style lang="css" scoped>
 .video-container {
   position: relative;
-  padding: 50% 0 0 0;
+  padding: 56.25% 0 0 0;
 }
 
 iframe {
